@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 
-export default class DealerHand extends Component {
+export default class Deck extends Component {
 
+  deck = []
   render() {
     return (
       <div>
-        <div className='dealerHand'></div>
+
       </div>
     );
   }

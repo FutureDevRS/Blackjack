@@ -1,0 +1,25 @@
+.top {
+    display: flex;
+    justify-content: space-between;
+
+    .scoreboard {
+        width: 33vw;
+    }
+
+    .dealerHand {
+        display: flex;
+        justify-content: center;
+        width: 33vw;
+        height: 200px;
+        border: solid black 10px;
+        border-radius: 15px;
+    }
+
+    .spacerRight {
+        width: 33vw;
+    }
+}
+
+.spacerOne {
+    height: 100px;
+}

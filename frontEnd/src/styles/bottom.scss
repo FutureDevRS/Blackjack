@@ -1,0 +1,112 @@
+.bottom {
+  display: flex;
+  justify-content: space-between;
+
+  .bank {
+    border: solid black 10px;
+    border-radius: 15px;
+    width: 25vw;
+  }
+
+  .playerHand {
+    display: flex;
+    justify-content: center;
+    width: 33vw;
+    height: 200px;
+    border: solid black 10px;
+    border-radius: 15px;
+  }
+
+  .spacerRight {
+    width: 25vw;
+  }
+
+}
+
+.bankBalance {
+  font-size: 2rem;
+}
+
+.chips {
+  display: flex;
+  justify-content: space-evenly;
+  width: 25vw;
+
+  button {
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+  }
+
+  .five {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    button {
+      background-color: white;
+      border: solid black 3px;
+    }
+  }
+
+  .twentyFive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    button {
+      background-color: red;
+      border: solid transparent 1px;
+      color: white;
+
+    }
+  }
+
+  .fifty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    button {
+      background-color: green;
+      border: solid transparent 1px;
+      color: white;
+
+    }
+  }
+
+  .oneHundred {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    button {
+      background-color: blue;
+      border: solid transparent 1px;
+      color: white;
+
+    }
+  }
+
+  .fiveHundred {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    button {
+      background-color: black;
+      border: solid transparent 1px;
+      color: white;
+    }
+  }
+
+  h6 {
+    font-size: 1.2rem;
+  }
+
+}
